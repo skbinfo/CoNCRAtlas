@@ -2,8 +2,6 @@
 # @Ajeet Singh
 # singh.ajeet@nipgr.ac.in
 
-# This script identify the confident lncRNAs from RNA-Seq datasets
-
 #command args 
 while getopts 'x:i:I:g:a:o:t:r:h' c
 do
