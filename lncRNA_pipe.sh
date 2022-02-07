@@ -180,8 +180,6 @@ sed -n '3,$'p ${outdir}/merged.gtf|grep -v exon|awk -F'\t|"' '{if($7!=".")print 
 rem+=" ${outdir}/merged.bed"
 echo "BEDTools running ......"
 ${bedtools} getfasta -fi ${genome} -bed ${outdir}/merged.bed -s -name -fo ${outdir}/merged.fasta
-mv ${outdir}/merged.fasta ${outdir}/merged_copy.fasta
-head -1000 ${outdir}/merged_copy.fasta > ${outdir}/merged.fasta
 rem+=" ${outdir}/merged.fasta"
 
 activate_myenv
