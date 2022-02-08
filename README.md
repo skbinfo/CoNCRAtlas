@@ -3,4 +3,4 @@ lncRNA_pipe.sh is a pipeline for identification, expression and classification o
 
 Under Development....
 
-<img src="http://14.139.61.8/CoNCRAtlas/images/lncRNA_pipeline.png" width="500" height="500">
+<img src="http://14.139.61.8/CoNCRAtlas/images/lncRNA_pipeline.png" width="700" height="700">
