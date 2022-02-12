@@ -10,11 +10,11 @@ chmod a+x lncRNA_pipe.sh
 Usage example:
 For SIngle-end reads
 ```
-lncRNA_pipe.sh -i <foo.fq> -i <faa.fq> -g <genome> -a <genome GTF>
+lncRNA_pipe.sh -i <foo.fq> -i <faa.fq> -g <genome> -a <genome GTF> -o <out-dir>
 ```
 For Paired-end reads
 ```
-lncRNA_pipe.sh -i <foo_1.fq> -i <faa_1.fq> -I <foo_2.fq> -I <faa_2.fq> -g <genome> -a <genome GTF>
+lncRNA_pipe.sh -i <foo_1.fq> -i <faa_1.fq> -I <foo_2.fq> -I <faa_2.fq> -g <genome> -a <genome GTF> -o <out-dir>
 ```
 
 
