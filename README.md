@@ -1,4 +1,6 @@
 # CoNCRAtlas :An atlas of cotton non-coding RNAs
+https://nipgr.ac.in/CoNCRAtlas
+
 __lncRNA_pipe.sh__ is a pipeline for identification, expression and classification of lncRNAs from multiple RNA-Seq datasets.
 Input required genome, annotation file (GTF), and multiple RNA-Seq datasets.
 It gives lncRNAs - fasta, GTF, gemonic classification, gene count, and gene expression files in output.
