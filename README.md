@@ -14,9 +14,8 @@ chmod a+x lncRNA_pipe.sh
 ```
 Usage:
 ```
-sh lncRNA_pipe.sh -h
-```
-```
+lncRNA_pipe.sh -h
+
    -x  <hisat2-build indexes>
    -i  <fastq file; single-end or _1.fastq if paired >
 	     for multiple single-end files or forward pair of paired-end use it multiple time
